@@ -9,4 +9,4 @@
 <!--responsive CSS-->
 <link rel="stylesheet" href="{{asset('frontend-assets/assets/css/responsive.css')}}">
 <!--favicon-->
-<link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend-assets/assets/image/logo/favicon.png')}}">
+<link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend-assets/assets/image/logo/favicon.svg')}}">

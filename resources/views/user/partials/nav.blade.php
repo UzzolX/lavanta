@@ -35,7 +35,7 @@
                                 </div>
 
                                 <li class="nav-items">
-                                    <a class="nav-link" href="#"><button>Login</button></a>
+                                    <a class="nav-link" href="{{route('login')}}"><button>Login</button></a>
                                 </li>
                             </ul>
                         </div>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,20 @@ Route::get('/', [App\Http\Controllers\User\IndexController::class, 'index'])->na
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+//Admin
+Route::middleware(['admin'])->group(function () {
+
+    Route::get('/dashboard', function () {
+        return view('admin.index');
+    })->name('dashboard.admin');
+
+    //Privacy & Policy
+    Route::get('/dashboard/privacy-and-policy', 'admin\settings\PrivacyPolicyController@index')->name('privacy.index');
+    Route::get('/dashboard/privacy-and-policy/create', 'admin\settings\PrivacyPolicyController@create')->name('privacy.create');
+    Route::post('/dashboard/privacy-and-policy/create', 'admin\settings\PrivacyPolicyController@store')->name('privacy.store');
+    Route::get('/dashboard/privacy-and-policy/{id}/edit', 'admin\settings\PrivacyPolicyController@edit')->name('privacy.edit');
+    Route::get('/dashboard/privacy-and-policy/{id}/update', 'admin\settings\PrivacyPolicyController@update')->name('privacy.update');
+    Route::get('/dashboard/privacy-and-policy/{id}/delete', 'admin\settings\PrivacyPolicyController@destroy')->name('privacy.delete');
+});
