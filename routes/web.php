@@ -20,16 +20,12 @@ use Illuminate\Support\Facades\Auth;
 
 
 Route::get('/', [App\Http\Controllers\User\IndexController::class, 'index'])->name('index');
+Route::get('/frequently-asked-questions', [App\Http\Controllers\User\FaqController::class, 'index'])->name('faq.index');
+Route::get('/contact-us', [App\Http\Controllers\User\ContactController::class, 'index'])->name('contact.index');
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
-Route::get('/contact-us', [App\Http\Controllers\Admin\Contact\ContactFormController::class, 'index'])->name('contact.index');
-Route::get('/contact-us', [App\Http\Controllers\Admin\Contact\ContactFormController::class, 'create'])->name('contact.create');
-Route::post('/contact-us/store', [App\Http\Controllers\Admin\Contact\ContactFormController::class, 'store'])->name('contact.store');
-Route::get('/contact-us', [App\Http\Controllers\Admin\Contact\ContactFormController::class, 'delete'])->name('contact.delete');
 
 
 //Admin

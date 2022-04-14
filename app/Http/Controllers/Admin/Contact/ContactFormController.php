@@ -10,10 +10,10 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends Controller
 {
-    public function index()
-    {
-        return view('user.pages.contact');
-    }
+    // public function index()
+    // {
+    //     return view('user.pages.contact');
+    // }
 
     public function store(Request $request)
     {

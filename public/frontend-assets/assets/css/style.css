@@ -1414,6 +1414,7 @@ h6 a {
 
 .menu-list li a {
     margin: 5px 10px;
+    text-transform: uppercase;
     font-size: 16px;
     color: white !important;
     transition: 0.3s;
@@ -1423,6 +1424,11 @@ h6 a {
     margin-left: 20px;
 }
 
+section.nav-menu.sticky {
+    background: #4f2160;
+    transition: 0.3s;
+}
+
 section.nav-menu {
     background: #4f216000;
     border-top: 10px solid #f4db94;
@@ -1430,6 +1436,7 @@ section.nav-menu {
     position: fixed !important;
     width: 100%;
     top: 0;
+    transition: 0.3s;
     z-index: 9;
     left: 0;
 }
@@ -1632,6 +1639,31 @@ canvas.particles-js-canvas-el {
     margin-bottom: 30px;
 }
 
+.home-inv-title h2 {
+    margin-bottom: 40px;
+    color: #4f2160;
+    text-align: center;
+}
+
+.home-inv {
+    background: #caa967;
+    width: 400p;
+    color: white;
+    display: flex;
+    margin-bottom: 50px;
+    min-height: 420px;
+    border: 1px solid #caa967;
+    border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+
+.home-inv h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
 
 /*service----------end*/
 
@@ -1665,6 +1697,7 @@ canvas.particles-js-canvas-el {
 
 .icon a i:hover {
     background: #4f2160;
+    color: white;
     border: 3px solid #4f2160;
     transition: 0.3s;
 }
@@ -1799,3 +1832,235 @@ canvas.particles-js-canvas-el {
 
 
 /*about us----------end*/
+
+
+/*privacy-policy----------start*/
+
+.pp-info h3 {
+    text-align: center;
+    font-weight: 600;
+    color: #4f2160;
+    margin-bottom: 50px;
+}
+
+.pp-info h4 {
+    display: inline-block;
+    color: #ddc37e;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddc37e;
+}
+
+.pp-info h3 {
+    text-align: center;
+    font-weight: 600;
+    color: #4f2160;
+    margin-bottom: 50px;
+}
+
+.pp-info h4 {
+    display: inline-block;
+    color: #ddc37e;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddc37e;
+}
+
+.pp-info li {
+    list-style: disc;
+    margin-bottom: 14px;
+}
+
+.pp-info li a {
+    color: #cdad6a;
+}
+
+.list-titles {
+    font-weight: 600;
+    font-size: 25px;
+    color: #5e5d5b;
+}
+
+
+/*privacy-policy----------end*/
+
+
+/*Developers----------start*/
+
+.hero-info-de p {
+    color: white;
+}
+
+.Developers-titles h2 {
+    font-weight: 600;
+    color: #4f2160;
+}
+
+.Developers-titles {
+    margin-bottom: 50px;
+}
+
+.Developers-left h4 {
+    color: #ccac69;
+}
+
+.Developers-left li {
+    list-style: disc;
+}
+
+.Developers-left span {
+    color: #ccac69;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Developers-right img {
+    width: 100%;
+}
+
+
+/*Developers----------end*/
+
+
+/*FAQ----------start*/
+
+.faq-box {
+    background: #4f2160;
+    padding: 15px 20px;
+    margin: 30px 30px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.faq-box:hover {
+    transition: 0.3s;
+    background: #c9a765;
+}
+
+.ans-all {
+    margin: 0 30px;
+    background: #4f2160;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.ans-all p {
+    color: white;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.faq-box i {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.faq-box span {
+    color: white;
+    font-size: 18px;
+}
+
+.faq-content {
+    margin: 0px 30px;
+    margin-top: 15px;
+}
+
+.faq-content p {
+    color: #4f2160;
+}
+
+.faq-content p a {
+    color: #c9a765;
+    margin-left: 5px;
+}
+
+
+/*FAQ----------end*/
+
+
+/*investors----------end*/
+
+.service-box-investor h3 {
+    color: #c9a866;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-single-box-investor {
+    background: #4f2160;
+    height: 400px;
+    display: flex;
+    margin: 20px 20px;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 35px;
+}
+
+.service-single-box-investor img {
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.service-single-box-investor {}
+
+.service-box-investor h2 {
+    font-size: 25px;
+    color: #f2dc96;
+}
+
+
+/*investors----------end*/
+
+
+/*property----------start*/
+
+.Property-box a img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.Property-box {
+    margin: 30px 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 12px 0px #00000042;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.Property-box a img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.property-title h1 {
+    color: #4f2160;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*property----------end*/
+
+
+/*footer----------start*/
+
+.bottom-footer-left p {
+    color: white;
+}
+
+.bottom-footer-right a {
+    color: #f4db94;
+    margin-left: 40px;
+}
+
+.bottom-footer-right {
+    text-align: right;
+}
+
+
+/*footer----------end*/
