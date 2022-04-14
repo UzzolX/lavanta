@@ -26,6 +26,12 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
+Route::get('/contact-us', [App\Http\Controllers\Admin\Contact\ContactFormController::class, 'index'])->name('contact.index');
+Route::get('/contact-us', [App\Http\Controllers\Admin\Contact\ContactFormController::class, 'create'])->name('contact.create');
+Route::post('/contact-us/store', [App\Http\Controllers\Admin\Contact\ContactFormController::class, 'store'])->name('contact.store');
+Route::get('/contact-us', [App\Http\Controllers\Admin\Contact\ContactFormController::class, 'delete'])->name('contact.delete');
+
+
 //Admin
 Route::middleware(['admin'])->group(function () {
 
