@@ -1,5 +1,5 @@
-<!--bootstrap CSS-->
-<link rel="stylesheet" href=" {{asset('frontend-assets/assets/css/bootstrap.min.css')}}">
+<!--Bootstrap CSS-->
+<link rel="stylesheet" href="{{asset('frontend-assets/assets/css/bootstrap.min.css')}}">
 <!--font themify CSS-->
 <link rel="stylesheet" href="{{asset('frontend-assets/assets/css/themify-icons.css')}}">
 <!--aos CSS-->
@@ -9,4 +9,4 @@
 <!--responsive CSS-->
 <link rel="stylesheet" href="{{asset('frontend-assets/assets/css/responsive.css')}}">
 <!--favicon-->
-<link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend-assets/assets/image/logo/favicon.svg')}}">
+<link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend-assets/assets/image/logo/fav.svg')}}">
