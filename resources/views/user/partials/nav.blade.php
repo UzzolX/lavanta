@@ -4,7 +4,7 @@
             <div class="col-xxl-12">
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container-fluid p-0">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="/">
                             <img src="{{asset('frontend-assets/assets/image/logo/logo1.png')}}" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -15,7 +15,7 @@
                             <ul class="navbar-nav d-flex align-items-center main-menu">
                                 <div class="menu-list navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                        <a class="nav-link active" aria-current="page" href="/">Home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="about.html">About</a>

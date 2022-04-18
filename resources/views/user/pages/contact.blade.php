@@ -2,19 +2,20 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Title-->
-    <title>LAVANTA | Contact</title>
+    <title>LAVANTA | Contact Us</title>
     @include('user.partials.head')
 
 </head>
 
 <body>
-
-    <!----------------------------------------top area start---------------------------------------->
     @include('user.partials.nav')
+    <!----------------------------------------top area start---------------------------------------->
+
     <!----------------------------------------top area end---------------------------------------->
 
 
@@ -23,10 +24,10 @@
     <main>
         <!--top banner start-->
         <section class="container-fluid top-hero" style="background-image: url(frontend-assets/assets/image/contact/banner.png); 
- background-size: cover;
- height: 600px !important;
- background-position: center;
- background-attachment: fixed;" id="particles-js">
+        background-size: cover;
+        height: 600px !important;
+        background-position: center;
+        background-attachment: fixed;" id="particles-js">
             <div class="container">
                 <div class="row main-hero-p">
                     <div class="col-xl-12 col-lg-12">
@@ -87,8 +88,7 @@
                     </div>
                 </div>
                 <div class="input-info">
-                    <form action="#">
-                        @csrf
+                    <form action="">
                         <div class="row">
                             <div class="col-xl-4 col-lg-4 col-md-4">
                                 <input type="text" name="" id="" placeholder="Full Name">
@@ -116,7 +116,6 @@
     <!----------------------------------------main area end---------------------------------------->
     <!--footer area start-->
     @include('user.partials.footer')
-    <!--footer area end-->
 
 
 </body>
