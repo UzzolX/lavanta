@@ -18,22 +18,22 @@
                                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About</a>
+                                        <a class="nav-link" href="{{route('about.index')}}">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="why-choose-us.html">Why Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page"
-                                            href="investors.html">investor</a>
+                                        <a class="nav-link" href="{{route('whyus.index')}}">Why Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link active" aria-current="page"
-                                            href="developers -pack.html">Developers</a>
+                                            href="{{route('investors.index')}}">investor</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link active" aria-current="page"
-                                            href="property-search.html">Property Search</a>
+                                            href="{{route('developers.index')}}">Developers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page"
+                                            href="{{route('property-search.index')}}">Property Search</a>
                                     </li>
 
                                     <li class="nav-item">
